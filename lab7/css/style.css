@@ -1,0 +1,29 @@
+body{
+	font-size: 12px;
+	color: gray;
+	font-family: 'Arial';
+	line-height: 2em;
+	background:no-repeat; 
+}
+a:link {
+	color: #727272;
+	text-decoration: none;
+    
+
+}
+.menu{
+	font-size: 14px;
+	color: #b9f605;
+	font-style: 900;
+}
+.menu a{
+	color: white;
+}
+.menu a:hover{
+	color: #b9f605;
+	text-decoration: none;
+
+}
+a.special {
+	color: #fbd306;
+}
