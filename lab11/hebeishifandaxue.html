@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>河北师范大学</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		.wrap{
+			width: 1200px;
+			height: 397px;
+			margin: 0 auto;
+			overflow: hidden;
+			position: relative;
+
+		}
+		.wrap a{
+			display: none;
+			position: absolute;
+			z-index: -2;
+		}
+		.btn{
+			width: 1002px;
+			height: 73px;
+			background: url(img/bg.png);
+			position: absolute;
+            bottom: 0; 
+            left: 99px;
+		}
+		.btn span{
+			display: block;
+			width: 40px;
+			height: 73px;
+			color: #fff;
+			font-size: 30px;
+			cursor: pointer;
+			text-align: center;
+		    line-height: 73px;
+		    
+			float: left;
+		}
+		.btn #next{
+			float: right;
+		}
+		.top{
+			    width: 1000px;
+			    position: relative;
+			    margin:0 auto;
+			    border-top: 5px solid #284c7e;
+		}
+		.logo{
+			width: 40px;
+			float: left;
+			margin-top: 13px;
+			
+		}
+		.top-right{
+			text-align: right;
+			height: 80px;
+			float: right;
+			margin-top: 10px;
+			line-height: 28px;
+		}
+		.top-right a{
+			color: #fc8200;
+			text-decoration: none;
+			font-size: 12px;
+		}
+		.english{
+           padding-right: 25px;
+		}
+		form{
+			display: block;
+			margin-top: 0em;
+		}
+		.search{
+			float: left;
+			margin: 0px;
+			height: 31px;
+			line-height: 31px;
+			width: 200px;
+			border: 1px solid #b6b6b6;
+			border-right: 0px;
+			padding-left: 10px;
+		}
+		.b_search{
+            width: 45px;
+            height: 33px;
+            float: left;
+            background-image: url(img/Q.gif);
+            background-position: center;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            border:1px solid #b6b6b6;
+            border-left: 0px;
+            margin-right: 20px;
+		}
+		.nav{
+			width: 1000px;
+			height: 55px;
+			margin-top: 95px;
+			padding-top: 5px;
+			border-top: 1px solid #d6d6d6;
+			position: relative;
+
+		}
+		ul{
+			padding: 0px;
+			margin: 0px;
+		}
+		li{
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		#easy li{
+			float:left;
+			list-style: none;
+			width: 110px;
+			height: 50px;
+			
+		}
+		#easy  li:hover  ul {
+			display:block;
+		}
+		#easy  li a{
+			display: block;
+			width: 110px;
+			height: 50px;
+			line-height: 50px;
+			padding-top: 5px;
+			text-align: center;
+			font-weight: bold;
+			font-size: 15px;
+			color: #333;
+			text-decoration: none;	
+		}
+        #easy li ul{
+            margin:0;
+            padding:0;
+            position: absolute;
+            display: none;  
+        }
+
+        #easy  li:hover a{
+			background-color: #0e6ebb;
+			color: white;
+		}
+		#easy li ul li{
+			display: block;
+			font-size: 15px;
+			width: 140px;
+			height: 50px;
+            float: none;
+            background-color: #0e6ebb;
+            text-align: center;
+            color: white;
+            z-index: 2;
+		}
+	</style>
+</head>
+<body>
+<div class="top">
+<div class="logo">
+	<img src="img/logo.png">
+</div>
+<div class="top-right">
+	<div class="english">
+		<a href="#">旧版网页</a>&nbsp;&nbsp;&nbsp;&nbsp;		
+		<a href="#">English Version</a>
+	</div>
+	<div style="margin:0,padding:0;">
+		<form>
+			<input type="text" name="keyword" class="search" id="search" value="搜索">
+			<input type="submit" name class="b_search" value>
+		</form>
+	</div>
+</div>
+<div class="nav">
+	<ul id="easy">
+		<li><a href="#">首页</a></li>
+		<li><a href="#">学校概况<img src="img/33.gif"></a>
+		<ul><li>学校简介</li>
+		<li>学科专业</li>
+		<li>治理架构</li>
+		<li>历史沿革</li>
+		<li>学校标志</li>
+		<li>校园风光</li>
+		<li>校园地图</li></ul></li>
+		<li><a href="#">机构设置<img src="img/33.gif"></a>
+		<ul><li>教学单位</li>
+		<li>管理服务</li>
+		<li>附属单位</li>
+		<li>汇华学院</li></ul></li>
+		<li><a href="#">人才培养<img src="img/33.gif"></a>
+		<ul><li>师资队伍</li>
+		<li>本科生教育</li>
+		<li>研究生教育</li>
+		<li>继续教育</li>
+		<li>留学生教育</li>
+		<li>中外合作办学</li></ul></li>
+		<li><a href="#">科学研究<img src="img/33.gif"></a>
+		<ul><li>科学研究平台</li>
+		<li>自然科学与技术</li>
+		<li>人文与社会科学</li>
+		<li>合作交流</li>
+		<li>学术期刊</li></ul></li>
+		<li><a href="#">招生就业<img src="img/33.gif"></a>
+		<ul><li>本科生就业</li>
+		<li>研究生就业</li>
+		<li>继续教育招生</li>
+		<li>留学生招生</li>
+		<li>就业服务</li></ul></li>
+		<li><a href="#">人才招聘</a></li>
+		<li><a href="#">公共服务<img src="img/33.gif"></a>
+		<ul><li>本科生服务</li>
+		<li>研究生服务</li>
+		<li>行政事务服务</li>
+		<li>图书情报服务</li>
+		<li>预决算公开</li>
+		<li>生活服务</li>
+		<li>网络服务</li></ul></li>
+		<li><a href="#">校友会</a></li>
+	</ul>
+</div>
+</div>
+<div class="wrap">
+	 <a href="#" style="display: block;"><img src="img/img0.gif"></a>
+	<a href="#"><img src="img/img1.jpg"></a>
+	<a href="#"><img src="img/img2.jpg"></a>
+	<a href="#"><img src="img/img3.jpg"></a>
+	<a href="#"><img src="img/img4.jpg"></a>
+	<a href="#"><img src="img/img5.jpg"></a>
+	<a href="#"><img src="img/img6.jpg"></a>
+	<a href="#"><img src="img/img7.jpg"></a> 
+	<div class="btn">
+		<span id="prev"><</span>
+		<span id="next">></span>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var wrap=document.getElementsByClassName('wrap')[0];
+	var imgs=wrap.getElementsByTagName('a');
+	var i=0;
+	function imgchange(){
+		imgs[i%8].style.display='none';
+		i++
+		imgs[i%8].style.display='block';
+	}
+	var time=setInterval(imgchange,2000);
+	wrap.onmouseover=function(){
+    clearInterval(time)
+	}
+	wrap.onmouseout=function(){
+    time=setInterval(imgchange,2000)
+    }
+	var prev=document.getElementById('prev');
+	var next=document.getElementById('next');
+	prev.onclick=function(){
+	imgs[i%8].style.display='none';
+		i--;
+		if(i<0){
+			i=7;
+		}
+		imgs[i%8].style.display='block';	
+	}
+	next.onclick=function(){
+    imgchange();
+}
+</script>
+</body>
+</html>
